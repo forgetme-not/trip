@@ -3,11 +3,19 @@
   margin: auto; 
 }
 .cardbox{
-  width: 800px;
+}
+#card2{
+  padding: 5px;
+  margin:2px;   
+	width:200px
+}
+#cardbox2{
+  width: 90%;
   height: 400px;
   margin: auto;
+  flex-direction: wrap;
+  display: flex;
 }
-
 p{
   display: -webkit-box;
       -webkit-line-clamp: 2;
