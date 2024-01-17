@@ -1,0 +1,11 @@
+.card_box{
+    width: 800px;
+    height: 800px;
+    margin: auto;
+}
+
+#carouselExampleIndicators{
+    max-width: 800px;
+    height: 300px;
+    margin: auto;
+}
