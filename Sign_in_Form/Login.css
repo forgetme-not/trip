@@ -1,0 +1,28 @@
+*{
+    font-family: '나눔손글씨 열아홉의 반짝임';
+}
+#id{
+    margin-bottom: 10px;
+}
+
+form{
+    margin: 10% auto;
+    text-align: center;
+border: 1px solid black;
+width: 500px;
+height: auto;
+background-color:whitesmoke;
+padding-bottom: 10px;
+border-radius: 5px;
+
+}
+.input_box{
+    width: 200px;
+}
+li{
+    list-style: none;
+}
+body {
+	background: #ccc;
+	padding: 20px;	
+}
