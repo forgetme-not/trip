@@ -1,4 +1,10 @@
 #carouselExampleIndicators{
     max-width: 800px; /* 원하는 크기로 조절하세요 */
     margin: auto; 
-  }
+}
+
+.carousel-inner{
+    max-width: 800px;
+    max-height: 600px;
+    margin: auto; 
+}
