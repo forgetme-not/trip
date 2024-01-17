@@ -36,7 +36,19 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <div class="maincard">
+    <form>
+        <label name="select" id="select">가고싶은 지역
+          <select name="select" id="select">
+            <option value="1">서울</option>
+            <option value="2">부산</option>
+            <option value="3">제주</option>
+            <option value="4">독도</option>
+          </select>
+        </label>
+        <input type="date" min="2024-01-17" name="date" id="date">
+        <button type="submit">제출</button>
+    </form>
+    <div class="cardbox">
       <h2>모두의 추천상품</h2>
       <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col">
