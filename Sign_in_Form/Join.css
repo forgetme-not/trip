@@ -4,7 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+#ageOutput{
+    font-size: xx-large;
+}
 body {
     background: #ccc;
     padding: 20px;
@@ -23,12 +25,15 @@ form {
     width: 100%;
     max-width: 400px;
 }
-
 li{
     list-style: none;
 }
+
+input[type=radio]{
+    margin-right: 30px;
+}
 input[type=text], input[type=email], input[type=password] {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin: 8px 0;
     display: inline-block;
@@ -36,7 +41,9 @@ input[type=text], input[type=email], input[type=password] {
     border-radius: 4px;
     box-sizing: border-box;
 }
-
+.btn{
+    margin-left: 45%;
+}
 label {
     font-size: x-large;
     margin-bottom: 10px;
@@ -46,10 +53,11 @@ label {
 /* 태블릿? 용 */
 @media (min-width: 600px) and (max-width: 992px) {
     body {
-        padding: 40px;
+        padding: 100px;
+    
     }
     form {
-        max-width: 600px;
+        max-width: 800px;
     }
 }
 
@@ -64,6 +72,7 @@ label {
     }
     input[type=text], input[type=email], input[type=password], button {
         padding: 15px;
+        
         height: 40px;
     }
 }
