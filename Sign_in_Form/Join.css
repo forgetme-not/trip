@@ -1,24 +1,69 @@
-*{
+* {
     font-family: '나눔손글씨 열아홉의 반짝임';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-form{
-    margin: 10% auto;
-    text-align: center;
-border: 1px solid black;
-width: 500px;
-height: auto;
-background-color:whitesmoke;
-padding-bottom: 10px;
-border-radius: 5px;
+
+body {
+    background: #ccc;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
+
+form {
+    margin: 0;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
 li{
     list-style: none;
 }
-body {
-	background: #ccc;
-	padding: 20px;	
+input[type=text], input[type=email], input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
-label{
-    text-align: center;
+
+label {
+    font-size: x-large;
     margin-bottom: 10px;
+    display: block;
+}
+
+/* 태블릿? 용 */
+@media (min-width: 600px) and (max-width: 992px) {
+    body {
+        padding: 40px;
+    }
+    form {
+        max-width: 600px;
+    }
+}
+
+/* 모바일용 */
+@media (max-width: 599px) {
+    body {
+        font-size: smaller;
+        padding: 10px;
+    }
+    form {
+        max-width: 100%;
+    }
+    input[type=text], input[type=email], input[type=password], button {
+        padding: 15px;
+        height: 40px;
+    }
 }
