@@ -8,3 +8,28 @@
     max-height: 600px;
     margin: auto; 
 }
+
+.cardbox{
+    width: 800px;
+    height: 400px;
+    margin: auto;
+  }
+  
+  .cardbox h2{
+    font-family: 'Black Han Sans', sans-serif;
+  }
+  .cardbox p{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .card-cencept{
+    color: #80BCBD;
+  }
+  
+  .card-text{
+    color: gray
+  }
+  
