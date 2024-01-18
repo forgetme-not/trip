@@ -30,6 +30,18 @@ p{
       -webkit-box-orient: vertical;
       overflow: hidden;
 }
+.card-cencept{
+  color: #80BCBD;
+}
+
+.card-text{
+  color: gray
+}
+
+.card-price{
+  text-align:end;
+  font-size:x-large
+}
 .reservation{
   margin:10px auto;
   padding: 20px;
