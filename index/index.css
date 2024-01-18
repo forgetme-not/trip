@@ -5,24 +5,24 @@
   font-family: 'Noto Sans KR', sans-serif;
 }
 #carouselExampleIndicators {
-  max-width: 800px;
-  max-height: 600px;
+  max-width: 50rem;
+  max-height: 37.5rem;
   margin: auto;
 }
 .carousel-inner {
-  max-width: 800px;
-  max-height: 600px;
+  max-width: 50rem;
+  max-height: 37.5rem;
   margin: auto;
 }
 .maincard {
   margin: auto;
-  width: 800px;
-  height: 400px;
+  width: 50rem;
+  height: 25rem;
 }
 .card:hover{
   transform: scale(1.05);
   z-index: 2;
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+  /* box-shadow: 0 0 .625rem rgba(0, 0, 0, 0.5); */
 }
 h1{
   text-align: center;
@@ -32,17 +32,34 @@ h1{
 }
 .container {
   display: flex;
+  margin: 0px auto;
 }
 .login_join{
   display: flex;
 }
 #linkpage_1 {
+  margin: 0px auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
+#linkpage_1 ul{
+  list-style:none;
+  background-color: #E5E1DA;
+  width: 100%;
+  margin:0px auto;
+  text-align: center;
+}
+#linkpage_1 ul li{
+  display: inline-block;
+  padding:30px;
+}
+#linkpage_1 ul li a{
+  text-decoration-line: none;
+  color: #3D3B40;
+}
 #linkpage_1>*{
-  margin: 20px;
+  margin: 1.25rem;
 }
 #search_btn {
   justify-content: center;
@@ -51,22 +68,18 @@ h1{
   flex-direction: row-reverse;
 }
 .login_join>*{
-margin: 15px;
+margin: .9375rem;
 }
 button {
   display: inline-block;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  border: 1px solid #3498db;
+  border: .0625rem solid #3498db;
   color: #3498db;
   background-color: #ffffff;
-  border-radius: 3px;
+  border-radius: .1875rem;
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-}
-
-@media only screen and (max-width: 600px) {
- 
 }
