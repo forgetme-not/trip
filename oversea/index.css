@@ -2,18 +2,17 @@
   max-width: 800px; /* 원하는 크기로 조절하세요 */
   margin: auto; 
 }
-.cardbox{
-}
+
 #card2{
   padding: 5px;
   margin:2px;   
 	width:200px
 }
-#cardbox2{
-  width: 90%;
+#cardbox{
+  width: 80%;
   height: 400px;
   margin: auto;
-  flex-direction: wrap;
+  flex-wrap: wrap;
   display: flex;
 }
 p{
