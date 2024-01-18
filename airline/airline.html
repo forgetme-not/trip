@@ -40,24 +40,28 @@
   </div>
   <div class="reservation">
    <div class="location">
-      출발지<input type="text" list="start">
-      <datalist id="start">
-        <option value="ICN,Korea">인천국제공항</option>
-        <option value="GMP,Korea">김포공항</option>
-        <option value="PUS,Korea">김해국제공항</option>
+      <p>
+        출발지<input type="text" list="start">
+        <datalist id="start">
+          <option value="ICN,Korea">인천국제공항</option>
+          <option value="GMP,Korea">김포공항</option>
+          <option value="PUS,Korea">김해국제공항</option>
+        </datalist>
+      </p>
+      <p>
+        도착지<input type="text" list="end">
+        <datalist id="end">
+        <option value="HND,Japan">하네다 공항</option>
+        <option value="DOH,Qatar">하마드 공항</option>
+        <option value="SIN,Singapore">창이 공항</option>
+        <option value="CDG,France">샤를 드골 공항</option>
       </datalist>
-      도착지<input type="text" list="end">
-      <datalist id="end">
-      <option value="HND,Japan">하네다 공항</option>
-      <option value="DOH,Qatar">하마드 공항</option>
-      <option value="SIN,Singapore">창이 공항</option>
-      <option value="CDG,France">샤를 드골 공항</option>
-    </datalist>
+      </p>
    </div>
    <br>
 <div class="date">
-    출발일<input type="date" name="Departure_Date" id="Departure_Date">
-    도착일<input type="date" name="Arrival_Date" id="Arrival_Date">
+    <p>출발일<input type="date" name="Departure_Date" id="Departure_Date"></p>
+    <p>도착일<input type="date" name="Arrival_Date" id="Arrival_Date"></p>
   </div>
     <button type="submit">검색하기</button>
   </div>
