@@ -106,6 +106,7 @@ p{
   /* flex 박스 모델을 적용합니다. */
   justify-content: center;
   /* 아이템들을 가운데 정렬합니다. */
+  background-color: white;
 }
 
 .reservation button[type=submit]{
