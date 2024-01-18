@@ -7,6 +7,10 @@
   font-family: 'Noto Sans KR', sans-serif;
 }
 
+body{
+  background-color: rgb(240, 240, 240);
+}
+
 /* 카로셀 컨테이너에 대한 스타일 */
 #carouselExampleIndicators {
   max-width: 800px; /* 원하는 크기로 조절하세요 */
@@ -71,6 +75,7 @@ p {
   flex-wrap: wrap;
   display: flex;
   justify-content: space-around;
+  background-color: white;
 }
 /* 예약 컨테이너의 안의 모든 요소들의 간격 */
 .reservation > * {
