@@ -1,35 +1,65 @@
-#carouselExampleIndicators{
+#carouselExampleIndicators {
   max-width: 800px;
   max-height: 600px;
-  margin: auto; 
+  margin: auto;
 }
-.carousel-inner{
+
+.carousel-inner {
   max-width: 800px;
   max-height: 600px;
-  margin: auto; 
+  margin: auto;
 }
-.maincard{
+
+.maincard {
   margin: 0 auto;
   width: 400px;
   height: 400px;
 }
-h1{
+
+h1 {
   text-align: center;
 }
-h2{
+
+h2 {
   text-align: center;
   padding: 20px;
 }
-.container{
+
+.container {
+  display: flex;
+}
+.login_join{
   display: flex;
 }
 
-#linkpage_1{
-flex-direction: row;
-}
-#linkpage_1 > * {
-  margin-right: 20px; /* 원하는 간격으로 조절 */
-}
-#search_btn{
+#linkpage_1 {
+  flex-direction: row;
   justify-content: center;
+}
+#linkpage_1>*{
+  margin: 20px;
+}
+
+#search_btn {
+  justify-content: center;
+}
+
+.login_join {
+  flex-direction: row-reverse;
+}
+.login_join>*{
+margin: 15px;
+}
+button {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #3498db;
+  color: #3498db;
+  background-color: #ffffff;
+  border-radius: 3px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
