@@ -17,6 +17,10 @@ font-family: 'Noto Sans KR', sans-serif;
   margin: auto;
 }
 
+.card2:hover{
+  transform: scale(1.05);
+  z-index: 2;
+}
 .cardbox h2{
   font-family: 'Black Han Sans', sans-serif;
 }
@@ -39,18 +43,66 @@ font-family: 'Noto Sans KR', sans-serif;
   text-align:end;
   font-size:x-large
 }
+.card-button{
+  position:relative;
+  width: 232px;
+  height:100px;
+  padding: 10px;
+  margin: 0px auto;
+}
+.card-button button{
+  display: inline-box;
+  width: 100px;
+  line-height: 13px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 60px;
+  padding: 10px 30px;
+}
+.card-button button:hover{
+  background-color: black;
+  color: white;
+}
+.btn1{position:absolute;
+  top:10px;
+  left:10px;}
+.btn2{position:absolute;
+  top:10px;
+  left:120px;}
+.btn3{position:absolute;
+  top:50px;
+  left:10px;}
+.btn4{position:absolute;
+  top:50px;
+  left:120px;}
+
 form{
   margin:10px auto;
   padding: 20px;
-  width: 25rem;
+  width: 370px;
   border: 1px solid gray;
   border-radius: 20px;
 }
-form label{
-  padding:10px;
 
-}
 form button{
   border: 2px solid gray;
   border-radius: 3px;
+}
+.banner{
+  
+}
+.banner1{
+  margin: 10px auto;
+  padding: 10px;
+  border:1px solid;
+  width: 400px;
+  float:left;
+}
+
+.banner2{
+  margin: 10px auto;
+  padding: 10px;
+  border:1px solid;
+  width: 400px;
+  float:left;
 }
