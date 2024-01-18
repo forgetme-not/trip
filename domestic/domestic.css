@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR&display=swap');
+*{
+  font-family: 'Black Han Sans', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
+}
+
+
 #carouselExampleIndicators{
   max-width: 800px;
   margin: auto; 
@@ -9,6 +17,9 @@
   margin: auto;
 }
 
+.cardbox h2{
+  font-family: 'Black Han Sans', sans-serif;
+}
 .cardbox p{
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -16,6 +27,18 @@
   overflow: hidden;
 }
 
+.card-cencept{
+  color: #80BCBD;
+}
+
+.card-text{
+  color: gray
+}
+
+.card-price{
+  text-align:end;
+  font-size:x-large
+}
 form{
   margin:10px auto;
   padding: 20px;
@@ -23,7 +46,10 @@ form{
   border: 1px solid gray;
   border-radius: 20px;
 }
+form label{
+  padding:10px;
 
+}
 form button{
   border: 2px solid gray;
   border-radius: 3px;
