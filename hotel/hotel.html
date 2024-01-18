@@ -8,40 +8,41 @@
     <link rel="stylesheet" href="../hotel/hotel.css">
 
     <!-- 수량 -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            // 인풋 요소
-            var peopleInput = document.getElementById('inputState');
-            var roomInput = document.getElementById('inputZip');
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // 인풋 요소
+        var peopleInput = document.getElementById('inputMember');
+        var roomInput = document.getElementById('inputRoom4');
 
-            // +/- 버튼
-            var plusPeopleBtn = document.getElementById('plusPeople');
-            var minusPeopleBtn = document.getElementById('minusPeople');
-            var plusRoomBtn = document.getElementById('plusRoom');
-            var minusRoomBtn = document.getElementById('minusRoom');
-    
-            // 클릭버튼
-            plusPeopleBtn.addEventListener('click', function () {
-                peopleInput.value = parseInt(peopleInput.value) + 1;
-            });
-    
-            minusPeopleBtn.addEventListener('click', function () {
-                if (parseInt(peopleInput.value) > 0) {
-                    peopleInput.value = parseInt(peopleInput.value) - 1;
-                }
-            });
-    
-            plusRoomBtn.addEventListener('click', function () {
-                roomInput.value = parseInt(roomInput.value) + 1;
-            });
-    
-            minusRoomBtn.addEventListener('click', function () {
-                if (parseInt(roomInput.value) > 0) {
-                    roomInput.value = parseInt(roomInput.value) - 1;
-                }
-            });
+        // +/- 버튼
+        var plusPeopleBtn = document.getElementById('plusPeople');
+        var minusPeopleBtn = document.getElementById('minusPeople');
+        var plusRoomBtn = document.getElementById('plusRoom');
+        var minusRoomBtn = document.getElementById('minusRoom');
+
+        // 클릭버튼
+        plusPeopleBtn.addEventListener('click', function () {
+            peopleInput.value = parseInt(peopleInput.value) + 1;
         });
-    </script>
+
+        minusPeopleBtn.addEventListener('click', function () {
+            if (parseInt(peopleInput.value) > 0) {
+                peopleInput.value = parseInt(peopleInput.value) - 1;
+            }
+        });
+
+        plusRoomBtn.addEventListener('click', function () {
+            roomInput.value = parseInt(roomInput.value) + 1;
+        });
+
+        minusRoomBtn.addEventListener('click', function () {
+            if (parseInt(roomInput.value) > 0) {
+                roomInput.value = parseInt(roomInput.value) - 1;
+            }
+        });
+    });
+</script>
+
 </head>
 <body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
