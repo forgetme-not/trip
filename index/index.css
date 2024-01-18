@@ -1,4 +1,35 @@
 #carouselExampleIndicators{
-  max-width: 800px; /* 원하는 크기로 조절하세요 */
+  max-width: 800px;
+  max-height: 600px;
   margin: auto; 
+}
+.carousel-inner{
+  max-width: 800px;
+  max-height: 600px;
+  margin: auto; 
+}
+.maincard{
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+  padding: 20px;
+}
+.container{
+  display: flex;
+}
+
+#linkpage_1{
+flex-direction: row;
+}
+#linkpage_1 > * {
+  margin-right: 20px; /* 원하는 간격으로 조절 */
+}
+#search_btn{
+  justify-content: center;
 }
