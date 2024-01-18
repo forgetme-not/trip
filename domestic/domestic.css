@@ -88,12 +88,8 @@ form button{
   border-radius: 3px;
 }
 .banner{
-<<<<<<< HEAD
-  margin: 500px;
-=======
   margin: 550px auto;
   width: 830px;
->>>>>>> origin/jyw_3
 }
 .banner1{
   box-sizing: border-box;
