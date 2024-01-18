@@ -89,20 +89,33 @@ form button{
   border-radius: 3px;
 }
 .banner{
-  
+  margin: 550px auto;
+  width: 830px;
 }
 .banner1{
-  margin: 10px auto;
+  box-sizing: border-box;
+  margin: 0px;
   padding: 10px;
-  border:1px solid;
+  border-radius: 10px;
   width: 400px;
   float:left;
+  background-image: url(image/plane.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-color: #F3D7CA;
+  color: #FF6868;
 }
 
 .banner2{
-  margin: 10px auto;
+  margin: 0px;
   padding: 10px;
-  border:1px solid;
+  border-radius: 10px;
   width: 400px;
-  float:left;
+  float:right;
+  background-color: #D9EDBF;
+  background-image: url(image/island.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
