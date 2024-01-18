@@ -4,8 +4,6 @@
   font-family: 'Black Han Sans', sans-serif;
 font-family: 'Noto Sans KR', sans-serif;
 }
-
-
 #carouselExampleIndicators{
   max-width: 800px; /* 원하는 크기로 조절하세요 */
   margin: auto; 
@@ -68,4 +66,11 @@ p{
   flex-wrap: wrap;
   display: flex;
   justify-content:center;
+}
+.reservation button[type=submit]{
+  margin-left: 3%;
+  border-radius: 5px;
+}
+.reservation p{
+  margin-right: auto;
 }
