@@ -76,3 +76,37 @@ p {
 .reservation > * {
   margin: 10px;
 }
+.banner{
+  margin: auto;
+  width: 80%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+.banner1{
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 400px;
+  float:left;
+  background-image: url(img/plane.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-color: #F3D7CA;
+  color: #FF6868;
+}
+
+.banner2{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 400px;
+  float:right;
+  background-color: #D9EDBF;
+  background-image: url(img/island.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
