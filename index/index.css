@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR&display=swap');
+*{
+  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
+}
 #carouselExampleIndicators {
   max-width: 800px;
   max-height: 600px;
@@ -13,9 +19,16 @@
   width: 800px;
   height: 400px;
 }
-h1,h2 {
+.card:hover{
+  transform: scale(1.05);
+  z-index: 2;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+}
+h1{
   text-align: center;
-  padding: 15px;
+}
+.maincard h2{
+  font-family: 'Black Han Sans', sans-serif;
 }
 .container {
   display: flex;
@@ -33,7 +46,6 @@ h1,h2 {
 #search_btn {
   justify-content: center;
 }
-
 .login_join {
   flex-direction: row-reverse;
 }
