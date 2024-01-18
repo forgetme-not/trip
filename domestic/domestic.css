@@ -3,8 +3,28 @@
   margin: auto; 
 }
 
-.maincard{
-  margin: 0 auto;
-  width: 400px;
+.cardbox{
+  width: 800px;
   height: 400px;
+  margin: auto;
+}
+
+.cardbox p{
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+form{
+  margin:10px auto;
+  padding: 20px;
+  width: 25rem;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+
+form button{
+  border: 2px solid gray;
+  border-radius: 3px;
 }
