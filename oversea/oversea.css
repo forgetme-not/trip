@@ -22,7 +22,7 @@ font-family: 'Noto Sans KR', sans-serif;
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
 }
 #cardbox{
-  width: 90%;
+  width: 80%;
   margin-bottom: 30px;
   margin: auto;
   flex-wrap: wrap;
@@ -31,7 +31,7 @@ font-family: 'Noto Sans KR', sans-serif;
 }
 #font{
   margin-top: 50px;
-  margin-left: 150px;
+  margin-left: 15%;
   font-family: 'Black Han Sans', sans-serif;
 }
 p{
