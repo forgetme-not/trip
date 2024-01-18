@@ -1,7 +1,7 @@
-*{
+@font-face {
     font-family: '나눔손글씨 열아홉의 반짝임';
+    src: url("../Sign_in_Form/나눔손글씨.ttf");
 }
-
 #id{
     margin-bottom: 10px;
 }
