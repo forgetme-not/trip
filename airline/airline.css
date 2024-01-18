@@ -11,8 +11,6 @@ font-family: 'Noto Sans KR', sans-serif;
   margin: auto; 
 }
 
-
-
 #card2{
   padding: 10px;   
 	width:350px;
@@ -24,6 +22,12 @@ font-family: 'Noto Sans KR', sans-serif;
   z-index: 2;
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
 }
+h2{
+  font-family: 'Black Han Sans', sans-serif;
+  margin-top : 5%;
+  margin-bottom: 0%;
+  margin-left: 12%;
+}
 #cardbox{
   width: 80%;
   margin-bottom: 30px;
@@ -33,13 +37,12 @@ font-family: 'Noto Sans KR', sans-serif;
   justify-content: center;
   border-radius: 20px;
 }
-.cardbox h2{
-  font-family: 'Black Han Sans', sans-serif;
-}
 
+/* Card 관련 CSS  */
 .card-cencept{
   color: #80BCBD;
 }
+
 .card-text{
   color: gray
 }
@@ -47,13 +50,15 @@ font-family: 'Noto Sans KR', sans-serif;
 .card-price{
   text-align:end;
   font-size:x-large
-}x
+}
+
 p{
   display: -webkit-box;
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
       overflow: hidden;
 }
+/* 예매 관련 CSS */
 .reservation{
   margin:10px auto;
   padding: 20px;
@@ -62,5 +67,5 @@ p{
   border-radius: 20px;
   flex-wrap: wrap;
   display: flex;
-  justify-content: space-around;
+  justify-content:center;
 }
