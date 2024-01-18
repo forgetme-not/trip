@@ -70,3 +70,6 @@ p{
 .reservation p{
   margin-right: auto;
 }
+body{
+  background-color: rgb(240, 240, 240);
+}
