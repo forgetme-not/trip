@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR&display=swap');
+*{
+  font-family: 'Black Han Sans', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
+}
+
 #carouselExampleIndicators{
   max-width: 800px; /* 원하는 크기로 조절하세요 */
   margin: auto; 
@@ -15,14 +22,17 @@
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
 }
 #cardbox{
-  width: 80%;
+  width: 90%;
   margin-bottom: 30px;
   margin: auto;
   flex-wrap: wrap;
   display: flex;
-  border: 1px solid gray;
   justify-content: center;
-  border-radius: 20px;
+}
+#font{
+  margin-top: 50px;
+  margin-left: 150px;
+  font-family: 'Black Han Sans', sans-serif;
 }
 p{
   display: -webkit-box;
@@ -45,10 +55,13 @@ p{
 .reservation{
   margin:10px auto;
   padding: 20px;
-  width: 80%;
+  width: 70%;
   border: 1px solid gray;
   border-radius: 20px;
   flex-wrap: wrap;
   display: flex;
   justify-content: space-around;
+}
+.reservation >*{
+  margin: 10px;
 }
