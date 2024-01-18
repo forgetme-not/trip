@@ -79,14 +79,4 @@ font-family: 'Noto Sans KR', sans-serif;
 
 .card-text{
     color: gray
-<<<<<<< HEAD
-  }
-  .card:hover{
-    transform: scale(1.05);
-    z-index: 2;
-    /*이 코드를 통해서 hover 효과가 나타나요*/
-  }
-=======
 }
-
->>>>>>> origin/psw_1
