@@ -117,8 +117,6 @@ p{
 
 .reservation p{
   margin-right: auto;
-<<<<<<< HEAD
-=======
   /* 텍스트의 오른쪽 마진을 자동으로 설정합니다. */
 }
 
@@ -152,5 +150,4 @@ p{
   background-size: 100px;
   background-repeat: no-repeat;
   background-position: right bottom;
->>>>>>> origin/kbj_4
 }
