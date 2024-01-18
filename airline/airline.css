@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR&display=swap');
+*{
+  font-family: 'Black Han Sans', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
+}
+
+
 #carouselExampleIndicators{
   max-width: 800px; /* 원하는 크기로 조절하세요 */
   margin: auto; 
 }
+
+
 
 #card2{
   padding: 10px;   
@@ -20,10 +30,24 @@
   margin: auto;
   flex-wrap: wrap;
   display: flex;
-  border: 1px solid gray;
   justify-content: center;
   border-radius: 20px;
 }
+.cardbox h2{
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+.card-cencept{
+  color: #80BCBD;
+}
+.card-text{
+  color: gray
+}
+
+.card-price{
+  text-align:end;
+  font-size:x-large
+}x
 p{
   display: -webkit-box;
       -webkit-line-clamp: 2;
