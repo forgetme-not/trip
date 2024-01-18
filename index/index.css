@@ -3,26 +3,25 @@
   max-height: 600px;
   margin: auto;
 }
-
 .carousel-inner {
   max-width: 800px;
   max-height: 600px;
   margin: auto;
 }
-
 .maincard {
   margin: 0 auto;
   width: 400px;
   height: 400px;
 }
-
-h1 {
+h1,h2 {
   text-align: center;
+  padding: 15px;
 }
 
-h2 {
-  text-align: center;
-  padding: 20px;
+.cardbox{
+  width: 800px;
+  height: 400px;
+  margin: auto;
 }
 
 .container {
@@ -31,7 +30,6 @@ h2 {
 .login_join{
   display: flex;
 }
-
 #linkpage_1 {
   flex-direction: row;
   justify-content: center;
@@ -39,7 +37,6 @@ h2 {
 #linkpage_1>*{
   margin: 20px;
 }
-
 #search_btn {
   justify-content: center;
 }
