@@ -117,8 +117,6 @@ p{
 
 .reservation p{
   margin-right: auto;
-<<<<<<< HEAD
-=======
   /* 텍스트의 오른쪽 마진을 자동으로 설정합니다. */
 }
 
@@ -133,7 +131,7 @@ p{
   border-radius: 10px;
   width: 400px;
   float:left;
-  background-image: url(image/plane.png);
+  background-image: url(airline_image/plane.png);
   background-size: 100px;
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -148,9 +146,8 @@ p{
   width: 400px;
   float:right;
   background-color: #D9EDBF;
-  background-image: url(image/island.png);
+  background-image: url(airline_image/island.png);
   background-size: 100px;
   background-repeat: no-repeat;
   background-position: right bottom;
->>>>>>> origin/kbj_4
 }
