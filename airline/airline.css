@@ -120,6 +120,9 @@ p{
   /* 텍스트의 오른쪽 마진을 자동으로 설정합니다. */
 }
 
+body{
+  background-color: rgb(240, 240, 240);
+}
 .banner{
   margin: 50px auto;
   width: 830px;

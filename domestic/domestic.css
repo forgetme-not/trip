@@ -103,6 +103,7 @@ form{
   width: 370px;
   border: 1px solid gray;
   border-radius: 20px;
+  background-color: white;
 }
 
 form button{
@@ -118,7 +119,7 @@ form button{
 }
 .banner1{
   box-sizing: border-box;
-  margin: 0px;
+  margin: 10px;
   padding: 10px;
   border-radius: 10px;
   width: 400px;
@@ -132,7 +133,7 @@ form button{
 }
 
 .banner2{
-  margin: 0px;
+  margin: 10px;
   padding: 10px;
   border-radius: 10px;
   width: 400px;
