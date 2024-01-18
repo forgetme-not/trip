@@ -1,6 +1,14 @@
-@font-face {
-    font-family: '나눔손글씨 열아홉의 반짝임';
-    src: url("../Sign_in_Form/나눔손글씨.ttf");
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+/* 'Black Han Sans' 글꼴을 구글 폰트에서 불러옵니다. */
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR&display=swap');
+/* 'Black Han Sans' 및 'Noto Sans KR' 글꼴을 구글 폰트에서 불러옵니다. */
+
+*{
+  font-family: 'Black Han Sans', sans-serif;
+  /* 모든 요소에 'Black Han Sans' 글꼴을 적용합니다. */
+  font-family: 'Noto Sans KR', sans-serif;
+  /* 모든 요소에 'Noto Sans KR' 글꼴을 추가로 적용합니다. */
 }
 * {
     margin: 0;
