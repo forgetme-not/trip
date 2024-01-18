@@ -1,0 +1,53 @@
+*{
+    font-family: '나눔손글씨 열아홉의 반짝임';
+}
+
+#id{
+    margin-bottom: 10px;
+}
+
+form{
+    margin: 10% auto;
+    text-align: center;
+border: 1px solid black;
+width: 500px;
+height: auto;
+background-color:whitesmoke;
+padding-bottom: 10px;
+border-radius: 5px;
+}
+.input_box{
+    width: 200px;
+}
+li{
+    list-style: none;
+}
+body {
+	background: #ccc;
+	padding: 20px;	
+}
+
+/* 태블릿? 용 */
+@media (min-width: 600px) and (max-width: 992px) {
+    body {
+        padding: 40px;
+    }
+    form {
+        max-width: 600px;
+    }
+}
+
+/* 모바일용 */
+@media (max-width: 599px) {
+    body {
+        padding: 10px;
+    }
+    form {
+        max-width: 80%;
+    }
+    input[type=text],input[type=password], button {
+        padding: 15px;
+        height: 10px;
+
+    }
+}
