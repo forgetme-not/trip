@@ -6,6 +6,9 @@
   font-family: 'Black Han Sans', sans-serif;
   font-family: 'Noto Sans KR', sans-serif;
 }
+a{
+  text-decoration-line: none;
+}
 
 body{
   background-color: rgb(240, 240, 240);

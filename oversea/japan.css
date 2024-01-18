@@ -17,10 +17,16 @@
 }
 
 .card {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 footer {
     position: relative;
     width: 100%;
+}
+.card-body >p{
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
