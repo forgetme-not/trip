@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR&display=swap');
 
-@keyframes colorChange {
+@keyframes colorChange { /*애니메이션 효과를 주기위해 정의*/
   0% {
     background-color: gold;
   }
