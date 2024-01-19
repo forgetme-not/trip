@@ -1,76 +1,107 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR&display=swap');
-*{
+
+@keyframes colorChange {
+  0% {
+    background-color: gold;
+  }
+  50% {
+    background-color: coral;
+  }
+  100%{
+    background-color: gold;
+  }
+}
+
+* {
   font-family: 'Black Han Sans', sans-serif;
   font-family: 'Noto Sans KR', sans-serif;
 }
+
 #carouselExampleIndicators {
   max-width: 50rem;
   max-height: 37.5rem;
   margin: auto;
 }
+
 .carousel-inner {
   max-width: 50rem;
   max-height: 37.5rem;
   margin: auto;
 }
+
 .maincard {
   margin: auto;
   width: 50rem;
   height: 25rem;
 }
-.card:hover{
+
+.card:hover {
   transform: scale(1.05);
   z-index: 2;
   /* box-shadow: 0 0 .625rem rgba(0, 0, 0, 0.5); */
 }
-h1{
+
+h1 {
   text-align: center;
 }
-.maincard h2{
+
+.maincard h2 {
   font-family: 'Black Han Sans', sans-serif;
 }
+
 .container {
   display: flex;
   margin: 0px auto;
 }
-.login_join{
+
+.login_join {
   display: flex;
 }
+
 #linkpage_1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  min-width: 100%; /*최소 넓이 지정을 통해 화면 꽉채우게!*/
-  background-color: lightgreen;
+  min-width: 100%;
+  /*최소 넓이 지정을 통해 화면 꽉채우게!*/
+  animation: colorChange 10s infinite;
 }
-#linkpage_1 ul{
-  list-style:none;
+
+#linkpage_1 ul {
+  list-style: none;
   width: 100%;
-  margin:0px auto;
+  margin: 0px auto;
   text-align: center;
 }
-#linkpage_1 ul li{
+
+#linkpage_1 ul li {
   flex-direction: row;
   display: inline-block;
-  padding:30px;
+  padding: 30px;
 }
-#linkpage_1 ul li a{
+
+#linkpage_1 ul li a {
   text-decoration-line: none;
   color: #3D3B40;
 }
-#linkpage_1>*{
+
+#linkpage_1>* {
   margin: 1.25rem;
 }
+
 #search_btn {
   justify-content: center;
 }
+
 .login_join {
   flex-direction: row-reverse;
 }
-.login_join>*{
-margin: .9375rem;
+
+.login_join>* {
+  margin: .9375rem;
 }
+
 button {
   display: inline-block;
   font-size: 1rem;
