@@ -38,14 +38,12 @@ h1{
   display: flex;
 }
 #linkpage_1 {
-  margin: 0px auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 #linkpage_1 ul{
   list-style:none;
-  background-color: #E5E1DA;
   width: 100%;
   margin:0px auto;
   text-align: center;
