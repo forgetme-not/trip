@@ -53,18 +53,24 @@ body {
 /* 모바일용 */
 @media (max-width: 599px) {
     body {
-        padding: 10px;
+        padding: 5px;
     }
 
     form {
         max-width: 80%;
     }
+    label{
+        margin-right: 30px;
+    }
+    input{
+        margin-right: 30px;
+    } 
 
     input[type=text],
     input[type=password],
     button {
-        padding: 15px;
+        max-width: 80%;
+        padding: 10px;
         height: 10px;
-
     }
 }
