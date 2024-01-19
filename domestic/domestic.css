@@ -100,7 +100,10 @@ body{
 form{
   margin:10px auto;
   padding: 20px;
-  width: 370px;
+  max-width: 370px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   border: 1px solid gray;
   border-radius: 20px;
   background-color: white;
@@ -143,4 +146,10 @@ form button{
   background-size: 100px;
   background-repeat: no-repeat;
   background-position: right bottom;
+}
+
+@media screen (min-width:425px) {
+  form{
+    width:370px auto;
+  }
 }
